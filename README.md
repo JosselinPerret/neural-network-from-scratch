@@ -11,6 +11,8 @@ A fully implemented neural network built from scratch to classify handwritten di
 - **Interactive drawing interface** — draw digits and watch the model predict in real-time
 - **Live feedback learning** — correct wrong predictions to trigger backpropagation and improve the model
 
+![MNIST Examples](image/examples.png)
+
 ---
 
 ## Architecture
@@ -83,6 +85,12 @@ Draw a digit and see 8 visualizations in real-time:
 - **Test Mode:** Draw and see predictions (no learning)
 - **Learning Mode:** Enter true label to trigger backpropagation
 
+![Draw and Predict](image/draw_and_predict.png)
+
+![Draw and Predict with Neuron Activity](image/draw_and_predict_with_neuron_activity.png)
+
+![Draw and Predict with Backpropagation](image/draw_and_predict_with_backprop.png)
+
 ---
 
 ## Training Progress
@@ -92,6 +100,10 @@ The notebook includes:
 - **Visual accuracy curve** showing improvement over time
 - **Test set evaluation** with confidence scores
 - **Random sample predictions** with visual feedback (green/red)
+
+![Accuracy Evolution](image/accuracy_evolution.png)
+
+![Examples with Predictions](image/examples_with_predictions.png)
 
 ---
 
